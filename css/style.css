@@ -335,6 +335,11 @@ h2{
     width: auto;
 }
 
+.img-card-almacen{
+    height: 15rem;
+    width: auto;
+}
+
 .img-card-verduras{
     display: flex;
     align-items: center;
