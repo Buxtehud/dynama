@@ -14,126 +14,172 @@
 </head>
 <body>
 
-<section class="container">
-    <div class="products-header">
-        <h2>Productos de almacén más vendidos</h2>
-        <a class= "button" href="./pages/almacen.html">VER TODO</a>
+    <header>
+        <nav>
+            <div class="navbar">
+                <a href="index.html"><div class="navbar-logo"><img src="./img/logo.png" alt="" /></div></a>
+                <div class="navbar-list">
+                    <ul>
+                        <li class="navbar-list-item"><a href="./pages/productos.html">Productos</a></li>
+                        <li class="navbar-list-item"><a href="./pages/como-comprar.html">Como Comprar</a></li>
+                        <li class="navbar-list-item"><a href="./pages/donde-estamos">Donde Estamos</a></li>
+                        <li class="navbar-list-item"><a href="./pages/sobre-dynama.html">Sobre Dynama</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="slideshow-container">
+            <!-- Full-width img with number and caption text -->
+            <div class="mySlides fade">
+                <img src="./img/carrusel-1.jpg" style="width: 100%" />
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./img/carrusel-2.jpg" style="width: 100%" />
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+    </section>
+
+    <div class="pay-bar">
+        <p>FORMAS DE PAGO Mercado Pago - Efectivo - Transferencia Bancaria </p>
+        <p>ABIERTO TODOS LOS DIAS </p>
+        <p>Presencial de 9:00 a 23:00hs / Telefonica de 9:30 a 17:30 hs</p>
     </div>
 
-    <div class="card-container">
-        <div class="card-almacen">
-            <img class="img-card" src="./img/productos/almacen/LIMPIEZA.jpg" alt="artículos de limpieza y perfumería">
-            <h3>ARTÍCULOS DE LIMPIEZA Y PERFUMERÍA</h3>
+    <section class="container-index">
+        <div class="products-header">
+            <h2>Productos de almacén más vendidos</h2>
+            <a class= "button" href="./pages/almacen.html">VER TODO</a>
         </div>
 
-        <div class="card-almacen">
-            <img class="img-card" src="./img/productos/almacen/BEBIDAS.jpg" alt="bebidas alcoholicas, gaseosas y aguas">
-            <h3>BEBIDAS ALCOHÓLICAS, GASOSAS Y AGUAS</h3>
-        </div>
-
-        <div class="card-almacen">
-            <img class="img-card" src="./img/productos/almacen/FIDEOS.jpg" alt="fideos, legumbres y cereales">
-            <h3>FIDEOS, LEGUMBRES Y CEREALES</h3>
-        </div>
-
-        <div class="card-almacen">
-            <img class="img-card" src="./img/productos/almacen/GALLETITAS.jpg" alt="galletitas y fiambres">
-            <h3>GALLETITAS Y PANIFICADOS</h3>
-        </div>
-
-        <div class="card-almacen">
-            <img class="img-card" src="./img/productos/almacen/YERBA.jpg" alt="infusiones, café y yerba">
-            <h3>INFUSIONES, CAFÉ Y YERBA</h3>
-        </div>
-
-        <div class="card-almacen">
-            <img class="img-card" src="./img/productos/almacen/LACTEOS.jpg" alt="lacteos y fiambres">
-            <h3>LÁCTEOS Y FIAMBRES</h3>
-        </div>
-    </div>
-</section>
-
-<section class="container">
-    <div class="products-header">
-        <h2>Productos de almacen más vendidos</h2>
-        <a class= "button" href="pages/verduras.html">VER TODO</a>
-    </div>
-
-    <div class="card-container">
-        <div class="card-verduras">
-            <div class="img-card-verduras">
-                <img src="./img/productos/verduras/TOMATE.jpg" alt="tomate">
+        <div class="card-container">
+            <div class="card-almacen">
+                <img class="img-card" src="./img/productos/almacen/LIMPIEZA.jpg" alt="artículos de limpieza y perfumería">
+                <h3>ARTÍCULOS DE LIMPIEZA Y PERFUMERÍA</h3>
             </div>
-            <h3>TOMATE</h3>
-        </div>
 
-        <div class="card-verduras">
-            <div class="img-card-verduras">
-                <img src="./img/productos/verduras/NARANJAS.jpg" alt="naranja">
+            <div class="card-almacen">
+                <img class="img-card" src="./img/productos/almacen/BEBIDAS.jpg" alt="bebidas alcoholicas, gaseosas y aguas">
+                <h3>BEBIDAS ALCOHÓLICAS, GASOSAS Y AGUAS</h3>
             </div>
-            <h3>NARANJA</h3>
-        </div>
 
-        <div class="card-verduras">
-            <div  class="img-card-verduras">
-                <img src="./img/productos/verduras/PAPA.jpg" alt="papa">
+            <div class="card-almacen">
+                <img class="img-card" src="./img/productos/almacen/FIDEOS.jpg" alt="fideos, legumbres y cereales">
+                <h3>FIDEOS, LEGUMBRES Y CEREALES</h3>
             </div>
-            <h3>PAPA</h3>
-        </div>
 
-        <div class="card-verduras">
-            <div class="img-card-verduras">
-                <img src="./img/productos/verduras/LIMON.jpg" alt="limon">
+            <div class="card-almacen">
+                <img class="img-card" src="./img/productos/almacen/GALLETITAS.jpg" alt="galletitas y fiambres">
+                <h3>GALLETITAS Y PANIFICADOS</h3>
             </div>
-            <h3>LIMON</h3>
-        </div>
 
-        <div class="card-verduras">
-            <div class="img-card-verduras">
-                <img src="./img/productos/verduras/ZAPALLO.jpg" alt="zapallo">
+            <div class="card-almacen">
+                <img class="img-card" src="./img/productos/almacen/YERBA.jpg" alt="infusiones, café y yerba">
+                <h3>INFUSIONES, CAFÉ Y YERBA</h3>
             </div>
-            <h3>ZAPALLO</h3>
-        </div>
 
-        <div class="card-verduras">
-            <div class="img-card-verduras">
-                <img src="./img/productos/verduras/LECHUGA.jpg" alt="lechuga">
-            </div>
-            <h3>LECHUGA</h3>
-        </div>
-    </div>
-</section>
-<footer>
-    <div class="flex-footer">
-        <p class="title marginpar">Contactanos</p>
-        <a href="https://wa.me/5491128467154?text=Me%20interesa%20comprar%20en%20tu%20tienda" target="_blank">
-            <p class="marginpar"><span class="icon"><i class="fa-brands fa-whatsapp"></i></span>11 2846 7154</p>
-        </a>
-        <div class="location">
-            <i class="fa-solid fa-location-dot icon"></i>
-            <div class="location-info">
-                <p>Haedo 692, Muñiz, San Miguel,</p>
-                <p>Provincia de Buenos Aires</p>
+            <div class="card-almacen">
+                <img class="img-card" src="./img/productos/almacen/LACTEOS.jpg" alt="lacteos y fiambres">
+                <h3>LÁCTEOS Y FIAMBRES</h3>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="flex-footer">
-        <p class="title center marginpar">Formas de Pago</p>
-        <ul>
-            <li>Mercado Pago</li>
-            <li>Transferencia bancaria</li>
-            <li>Efectivo</li>
-        </ul>
-    </div>
-
-    <div class="flex-footer social">
-        <p class="title right marginpar">Buscanos en</p>
-        <div class="instagram-box">
-            <a href="https://www.instagram.com/almacendynama1/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+    <section class="container-index">
+        <div class="products-header">
+            <h2>Productos de almacen más vendidos</h2>
+            <a class= "button" href="pages/verduras.html">VER TODO</a>
         </div>
-    </div>
-</footer>
+
+        <div class="card-container">
+            <div class="card-verduras">
+                <div class="img-card-verduras">
+                    <img src="./img/productos/verduras/TOMATE.jpg" alt="tomate">
+                </div>
+                <h3>TOMATE</h3>
+            </div>
+
+            <div class="card-verduras">
+                <div class="img-card-verduras">
+                    <img src="./img/productos/verduras/NARANJAS.jpg" alt="naranja">
+                </div>
+                <h3>NARANJA</h3>
+            </div>
+
+            <div class="card-verduras">
+                <div  class="img-card-verduras">
+                    <img src="./img/productos/verduras/PAPA.jpg" alt="papa">
+                </div>
+                <h3>PAPA</h3>
+            </div>
+
+            <div class="card-verduras">
+                <div class="img-card-verduras">
+                    <img src="./img/productos/verduras/LIMON.jpg" alt="limon">
+                </div>
+                <h3>LIMON</h3>
+            </div>
+
+            <div class="card-verduras">
+                <div class="img-card-verduras">
+                    <img src="./img/productos/verduras/ZAPALLO.jpg" alt="zapallo">
+                </div>
+                <h3>ZAPALLO</h3>
+            </div>
+
+            <div class="card-verduras">
+                <div class="img-card-verduras">
+                    <img src="./img/productos/verduras/LECHUGA.jpg" alt="lechuga">
+                </div>
+                <h3>LECHUGA</h3>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="flex-footer">
+            <p class="title marginpar">Contactanos</p>
+            <a href="https://wa.me/5491128467154?text=Me%20interesa%20comprar%20en%20tu%20tienda" target="_blank">
+                <p class="marginpar"><span class="icon"><i class="fa-brands fa-whatsapp"></i></span>11 2846 7154</p>
+            </a>
+            <div class="location">
+                <i class="fa-solid fa-location-dot icon"></i>
+                <div class="location-info">
+                    <p>Haedo 692, Muñiz, San Miguel,</p>
+                    <p>Provincia de Buenos Aires</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex-footer">
+            <p class="title center marginpar">Formas de Pago</p>
+            <ul>
+                <li>Mercado Pago</li>
+                <li>Transferencia bancaria</li>
+                <li>Efectivo</li>
+            </ul>
+        </div>
+
+        <div class="flex-footer social">
+            <p class="title right marginpar">Buscanos en</p>
+            <div class="instagram-box">
+                <a href="https://www.instagram.com/almacendynama1/" class="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
