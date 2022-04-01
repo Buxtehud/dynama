@@ -1,0 +1,566 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Oxygen", sans-serif;
+	font-size: 62.5%;
+}
+
+.navbar {
+	z-index: 99;
+	background-color: #2b2b2b2e;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar-logo img {
+	padding-left: 1rem;
+	width: 70%;
+}
+
+.navbar-list {
+	display: flex;
+	padding-right: 3rem;
+}
+
+.navbar-list ul {
+	display: flex;
+	align-items: center;
+	font-size: 5rem;
+}
+
+.navbar-list-item {
+	display: flex;
+	padding: 0.5rem 1rem 0.5rem;
+	list-style: none;
+}
+
+.navbar-list-item a {
+	text-decoration: none;
+	color: black;
+}
+
+.slideshow-container {
+	padding-top: 1rem;
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+}
+
+.mySlides {
+	display: none;
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	background-color: black;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #ff5555;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #ff555561;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.pay-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin-top: 1rem;
+	width: 100%;
+	height: 60px;
+	background-color: #0ac6a6;
+	box-shadow: 0 6px 6px -6px black;
+}
+
+.pay-bar p {
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+.pay-bar p b {
+	font-size: 1.5rem;
+}
+
+footer {
+	height: 18.2rem;
+	width: 100%;
+	background-color: #ffb000;
+	padding: 7px 0px 0 43px;
+	font-size: 7.5rem;
+	line-height: 2.3rem;
+	letter-spacing: 0.05em;
+	display: flex;
+	justify-content: center;
+}
+
+.flex-footer {
+	flex-basis: 33%;
+}
+
+.marginpar {
+	padding: 0;
+	margin-top: 1.5rem;
+}
+
+.title {
+	font-weight: 700;
+}
+
+footer a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: 300;
+}
+
+.icon {
+	margin-right: 1.3rem;
+	font-size: 3rem;
+	align-self: center;
+}
+
+.location {
+	display: flex;
+	margin-top: 1.8rem;
+}
+
+.location-info {
+	margin: 0;
+	font-size: 2.5rem;
+}
+
+.flex-footer ul {
+	margin-top: 1.95rem;
+	padding: 0;
+}
+
+.center,
+li {
+	list-style-type: none;
+	text-align: center;
+}
+
+.right {
+	text-align: center;
+}
+
+.flex-footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.social {
+	align-items: center;
+}
+
+.instagram-box {
+	margin: 2.4rem 0 0 0;
+	padding: 0;
+	background-color: #000000;
+	height: 5.4rem;
+	width: 5.4rem;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.instagram {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fa-instagram {
+	color: white;
+	font-size: 2.4rem;
+}
+
+.container-index {
+	margin: 5rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container {
+	margin: 15px 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.products-header {
+	margin: 0 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	font-family: "Bogaloo", cursive;
+	text-align: center;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 57px;
+	letter-spacing: 0.05em;
+	margin-top: 6.15rem;
+	margin-bottom: 7.5rem;
+}
+
+h2 {
+	width: 32.4rem;
+	height: 3rem;
+	font-weight: 400;
+	font-size: 1.8rem;
+	line-height: 2.3rem;
+}
+
+.button {
+	width: 9.2rem;
+	height: 4rem;
+	text-decoration: none;
+	color: #2b2b2b;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	text-align: center;
+	font-weight: 700;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	background: rgba(255, 176, 0, 0.38);
+	box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+
+.card-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.almacen-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 18%;
+}
+
+.card-almacen {
+	border: 1px solid #2b2b2b2e;
+	border-radius: 15px;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+	width: 20.8rem;
+	height: 26rem;
+	margin: 3rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-almacen:hover {
+	cursor: pointer;
+}
+
+.verduras-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 15%;
+}
+
+.card-verduras {
+	border: 3px solid #0ac6a6;
+	border-radius: 15px;
+	width: 20.8rem;
+	height: 26rem;
+	margin: 3rem 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.img-card {
+	height: 19.4rem;
+	width: auto;
+}
+
+.img-card-almacen {
+	height: 17rem;
+	width: auto;
+}
+
+.img-card-verduras {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 220px;
+}
+
+h3 {
+	width: 17.9rem;
+	height: 3.6rem;
+	font-weight: 700;
+	font-size: 1.4rem;
+	line-height: 1.8rem;
+	text-align: center;
+	letter-spacing: 0.05em;
+	margin-top: 1.3rem;
+}
+
+.button-container {
+	padding: 3rem;
+}
+
+.button-img {
+	border-radius: 15px;
+	border: 4px solid #0ac6a6;
+}
+
+.logo-whatsapp {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 5rem;
+}
+
+.whatsapp-cta {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	margin: 13px 0;
+}
+
+/* Modal */
+
+.modal-button {
+	border: none;
+	background: none;
+}
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+	background: #2b2b2b2e;
+	cursor: pointer;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.35s ease-in;
+}
+
+.modal-content {
+	font-size: 2.5rem;
+	line-height: 3rem;
+	display: flex;
+}
+
+.modal-content p b {
+	font-size: 2rem;
+}
+
+.modal-content div p {
+	font-size: 2rem;
+}
+.modal-content p {
+	margin: 1rem;
+}
+
+.modal.is-visible {
+	visibility: visible;
+	opacity: 1;
+}
+
+.modal-dialog {
+	position: relative;
+	max-width: 1000px;
+	max-height: 80vh;
+	border-radius: 25px;
+	border: 3px solid black;
+	background: white;
+	overflow: auto;
+	cursor: default;
+}
+
+.modal-dialog > * {
+	padding: 1rem;
+}
+
+.modal-header {
+	font-size: 2rem;
+	padding-left: 2rem;
+}
+
+.modal-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.modal-header .close-modal {
+	font-size: 1.5rem;
+}
+
+.modal p + p {
+	margin-top: 1rem;
+}
+
+.close-modal {
+	height: 30px;
+	width: 30px;
+	border: 0;
+	padding: 0;
+	background-color: orange;
+	border-radius: 50%;
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.texto-compra {
+	font-size: 3rem;
+	line-height: 3;
+	margin: 4rem;
+	text-align: center;
+}
+
+.texto-compra b {
+	font-size: 2.5rem;
+}
+
+.de-fondo {
+	background-image: url(./img/fondo-donde-estamos.jpg);
+}
+
+.de-img {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-bottom: 5rem;
+}
+
+.fruta1 {
+	background-image: url(../img/dynama/sandia.png), url(../img/dynama/anana.png), url(../img/dynama/uva.png),
+		url(../img/dynama/brocoli.png);
+	background-position: 30% 40%, 70% 50%, 100% 15%, 2.5% 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-size: 250px 150px, 230px 350px, 150px 200px, 250px 200px;
+}
+
+.fruta2 {
+	background-image: url(../img/dynama/calabaza.png), url(../img/dynama/anana.png), url(../img/dynama/uva.png),
+		url(../img/dynama/palta.png);
+	background-position: 10% 10%, 100% 15%, 2.5% 100%, 90% 80%;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-size: 200px 200px, 230px 350px, 150px 200px, 250px 200px;
+}
+
+.item {
+	display: inline;
+	padding: 1rem;
+	white-space: wrap;
+	font-size: 25px;
+	line-height: 1.4;
+}
+
+.container-sobre {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 5rem;
+}
+
+.sobre {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 4rem;
+}
+
+.sobre div p {
+	font-size: 2rem;
+}
+
+.sobre div p b {
+	font-size: 2rem;
+}

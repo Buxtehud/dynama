@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Almacén</title>
+		<link rel="shortcut icon" type="image/ico" href="../img/favicon.ico" />
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Oxygen:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			defer
+			src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+			integrity="sha384-vLLEq/Un/eZFmXAu4Xxf8F00RSSMzPcI7iDiT6hpB4zFpezCEGhb5daeR8PLyrLI"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="navbar">
+					<div class="navbar-logo">
+						<a href="../index.html"><img src="../img/logo.png" alt="" /></a>
+					</div>
+					<div class="navbar-list">
+						<ul>
+							<li class="navbar-list-item"><a href="./productos.html">Productos</a></li>
+							<li class="navbar-list-item"><a href="./comocomprar.html">Como Comprar</a></li>
+							<li class="navbar-list-item"><a href="./dondeestamos.html">Donde Estamos</a></li>
+							<li class="navbar-list-item"><a href="./sobredynama.html">Sobre Dynama</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div class="pay-bar">
+			<p><b>FORMAS DE PAGO</b> Mercado Pago - Efectivo - Transferencia Bancaria</p>
+			<p><b>ABIERTO TODOS LOS DÍAS</b> Presencial de 9:00 a 23:00hs - Telefonica de 9:30 a 17:30 hs</p>
+		</div>
+
+		<section class="container">
+			<h1>Productos</h1>
+			<div class="card-container">
+				<div class="almacen-container">
+					<button type="button" class="open-modal modal-button" data-open="modal1">
+						<div class="card-almacen">
+							<img class="img-card-almacen" src="../img/productos/almacen/ACEITE.jpg" alt="condimentos" />
+							<h3>CONDIMENTOS</h3>
+						</div>
+					</button>
+				</div>
+
+				<div class="almacen-container">
+					<button type="button" class="open-modal modal-button" data-open="modal2">
+						<div class="card-almacen">
+							<img
+								class="img-card-almacen"
+								src="../img/productos/almacen/GALLETITAS.jpg"
+								alt="galletitas y panificados"
+							/>
+							<h3>GALLETITAS Y PANIFICADOS</h3>
+						</div>
+					</button>
+				</div>
+
+				<div class="almacen-container">
+					<button type="button" class="open-modal modal-button" data-open="modal3">
+						<div class="card-almacen">
+							<img
+								class="img-card-almacen"
+								src="../img/productos/almacen/FIDEOS.jpg"
+								alt="fideos, legumbres y cereales"
+							/>
+							<h3>FIDEOS, LEGUMBRES Y CEREALES</h3>
+						</div>
+					</button>
+				</div>
+
+				<div class="almacen-container">
+					<button type="button" class="open-modal modal-button" data-open="modal4">
+						<div class="card-almacen">
+							<img
+								class="img-card-almacen"
+								src="../img/productos/almacen/BEBIDAS.jpg"
+								alt="bebidas alcoholicas, gaseosas y aguas"
+							/>
+							<h3>BEBIDAS ALCOHÓLICAS, GASEOSAS Y AGUAS</h3>
+						</div>
+					</button>
+				</div>
+
+				<div class="almacen-container">
+					<button type="button" class="open-modal modal-button" data-open="modal5">
+						<div class="card-almacen">
+							<img
+								class="img-card-almacen"
+								src="../img/productos/almacen/LIMPIEZA.jpg"
+								alt="artículos de limpieza y perfumería"
+							/>
+							<h3>ARTÍCULOS DE LIMPIEZA Y PERFUMERÍA</h3>
+						</div>
+					</button>
+				</div>
+
+				<div class="almacen-container">
+					<button type="button" class="open-modal modal-button" data-open="modal6">
+						<div class="card-almacen">
+							<img class="img-card-almacen" src="../img/productos/almacen/LACTEOS.jpg" alt="lácteos y fiambres" />
+							<h3>LÁCTEOS Y FIAMBRES</h3>
+						</div>
+					</button>
+				</div>
+
+				<div class="almacen-container">
+					<button type="button" class="open-modal modal-button" data-open="modal7">
+						<div class="card-almacen">
+							<img class="img-card-almacen" src="../img/productos/almacen/ENLATADOS.jpg" alt="enlatados y conservas" />
+							<h3>ENLATADOS Y CONSERVAS</h3>
+						</div>
+					</button>
+				</div>
+
+				<div class="almacen-container">
+					<button type="button" class="open-modal modal-button" data-open="modal8">
+						<div class="card-almacen">
+							<img class="img-card-almacen" src="../img/productos/almacen/FRESCOS.png" alt="productos frescos" />
+							<h3>PRODUCTOS FRESCOS</h3>
+						</div>
+					</button>
+				</div>
+
+				<div class="almacen-container">
+					<button type="button" class="open-modal modal-button" data-open="modal9">
+						<div class="card-almacen">
+							<img class="img-card-almacen" src="../img/productos/almacen/SNACKS.jpg" alt="golosinas y snacks" />
+							<h3>GOLOSINAS Y SNACKS</h3>
+						</div>
+					</button>
+				</div>
+
+				<div class="almacen-container">
+					<button type="button" class="open-modal modal-button" data-open="modal10">
+						<div class="card-almacen">
+							<img class="img-card-almacen" src="../img/productos/almacen/YERBA.jpg" alt="infusiones, café y yerba" />
+							<h3>INFUSIONES, CAFÉ Y YERBA</h3>
+						</div>
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<div class="logo-whatsapp">
+			<p class="whatsapp-cta">Hacé tu pedido aquí</p>
+			<a href="https://wa.me/5491128467154?text=Me%20interesa%20comprar%20en%20tu%20tienda" target="_blank"
+				><img src="../img/logo-whatsapp.png"
+			/></a>
+		</div>
+
+		<footer>
+			<div class="flex-footer">
+				<p class="title marginpar">Contactanos</p>
+				<a href="https://wa.me/5491128467154?text=Me%20interesa%20comprar%20en%20tu%20tienda" target="_blank">
+					<p class="marginpar">
+						<span class="icon"><i style="font-size: 3rem" class="fa-brands fa-whatsapp"></i></span>11 2846 7154
+					</p>
+				</a>
+				<div class="location">
+					<i class="fa-solid fa-location-dot icon"></i>
+					<div class="location-info">
+						<p>Haedo 692, Muñiz, San Miguel,</p>
+						<p>Provincia de Buenos Aires</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="flex-footer">
+				<p class="title center marginpar">Formas de Pago</p>
+				<ul>
+					<li>Mercado Pago</li>
+					<li>Transferencia bancaria</li>
+					<li>Efectivo</li>
+				</ul>
+			</div>
+
+			<div class="flex-footer social">
+				<p class="title right marginpar">Buscanos en</p>
+				<div class="instagram-box">
+					<a href="https://www.instagram.com/almacendynama1/" class="instagram" target="_blank"
+						><i class="fa-brands fa-instagram"></i
+					></a>
+				</div>
+			</div>
+		</footer>
+
+		<div class="container-modal">
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<div class="modal-header">
+						<span class="close">&times;</span>
+						<p class="modal-title">Condimentos</p>
+					</div>
+
+					<div class="modal-body">
+						<p>
+							<b>CONDIMENTOS</b> <br />
+							Aceite (Natura-Cocinero)<br />
+							Fritolin (cocinero)<br />
+							Vinagre Aceto Mayonesa (Natura/Menoyo)<br />
+							Mostaza (Savora)<br />
+							Ketchup (Hellman´s)<br />
+							Sal (dos anclas-celusal-dos estrellas)<br />
+							<b>ESPECIAS</b><br />
+							Orégano<br />
+							Pimentón dulce<br />
+							Condimento para pizza<br />
+							Pimineta<br />
+							y más...
+						</p>
+						<p>
+							<b>CALDOS</b><br />
+							Calditos (Maggi)<br />
+							Sopa Lista (Knorr)<br />
+
+							<b>SALSAS</b><br />
+							Tomate (Bonmar-SyP-Molto)<br />
+							Salsa lista<br />
+
+							<b>OTROS</b><br />
+							Puré de papás (Maggi) <br />
+
+							<img style="height: 10rem; padding-top: 1rem" src="../img/productos/modals/aderezos.png" alt="" />
+							<img
+								style="height: 10rem; padding-top: 1rem; opacity: 0.5"
+								src="../img/productos/modals/aderezos.png"
+								alt=""
+							/>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="modal1" data-animation="slideInOutLeft">
+			<div class="modal-dialog">
+				<header class="modal-header">
+					<p style="font-size: 3rem; font-weight: bold; padding-left: 40%">Condimentos</p>
+					<button class="close-modal" aria-label="close modal" data-close>✕</button>
+				</header>
+				<section class="modal-content">
+					<div style="margin: 2rem">
+						<p>
+							<b>CONDIMENTOS</b> <br />
+							Aceite (Natura-Cocinero)<br />
+							Fritolin (cocinero)<br />
+							Vinagre Aceto Mayonesa (Natura/Menoyo)<br />
+							Mostaza (Savora)<br />
+							Ketchup (Hellman´s)<br />
+							Sal (dos anclas-celusal-dos estrellas)<br />
+							<b>ESPECIAS</b><br />
+							Orégano<br />
+							Pimentón dulce<br />
+							Condimento para pizza<br />
+							Pimineta<br />
+							y más...
+						</p>
+					</div>
+					<div style="margin: 2rem">
+						<p>
+							<b>CALDOS</b><br />
+							Calditos (Maggi)<br />
+							Sopa Lista (Knorr)<br />
+
+							<b>SALSAS</b><br />
+							Tomate (Bonmar-SyP-Molto)<br />
+							Salsa lista<br />
+
+							<b>OTROS</b><br />
+							Puré de papás (Maggi) <br />
+						</p>
+						<div style="display: flex; justify-content: center; padding-top: 2rem">
+							<img style="height: 10rem" src="../img/productos/modals/aderezos.png" alt="" />
+							<img style="height: 10rem; opacity: 0.5" src="../img/productos/modals/aderezos.png" alt="" />
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<div class="modal" id="modal2" data-animation="slideInOutLeft">
+			<div class="modal-dialog">
+				<header class="modal-header">
+					<p style="font-size: 3rem; font-weight: bold; padding-left: 20%">Galletitas y Panificados</p>
+
+					<button class="close-modal" aria-label="close modal" data-close>✕</button>
+				</header>
+				<section class="modal-content">
+					<div style="margin: 2rem">
+						<p>
+							<b>GALLETITAS</b><br />
+							Don Satur<br />
+							Palmeritas<br />
+							Surtido Bagley<br />
+							Chips<br />
+							Terepín<br />
+							Pitusas<br />
+							Hojalmar<br />
+							Vainillas<br />
+							Coronitas<br />
+							Tostadas Riera<br />
+						</p>
+					</div>
+					<div style="margin: 2rem">
+						<p>
+							<b>PANIFICADOS</b><br />
+							Pan de Hamburguesa (Mimago-Zarpane)<br />
+							Pan de pancho (Mimago-Zarpane)<br />
+							Pan Lactal (Mimago-Dharma)<br />
+							Pebetes de panadería<br />
+							Pan rallado (mamá cocina-Luchetti-Suelto)<br />
+						</p>
+						<div style="display: flex; justify-content: center; padding-top: 2rem">
+							<img style="height: 10rem; opacity: 0.5" src="../img/productos/modals/galletas.png" alt="" />
+							<img style="height: 10rem" src="../img/productos/modals/pan.png" alt="" />
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<div class="modal" id="modal3" data-animation="slideInOutLeft">
+			<div class="modal-dialog">
+				<header class="modal-header">
+					<p style="font-size: 3rem; font-weight: bold; padding-left: 20%">Fideos, Legumbres y Cereales</p>
+
+					<button class="close-modal" aria-label="close modal" data-close>✕</button>
+				</header>
+				<section class="modal-content">
+					<div style="margin: 2rem">
+						<p>
+							<b>FIDEOS</b><br />
+							Matarazzo<br />
+							La Providencia<br />
+							Luchetti<br />
+							Don Vicente<br />
+							SyP<br />
+							Marolio<br />
+
+							<b>CEREALES</b><br />
+							Polenta (Presto pronta- Morixe)<br />
+							Arroz (dos hermanos-Gallo)<br />
+							Cereales (SyP)<br />
+							Lentejas<br />
+							Harina varias (Cañuelas-Pureza-Mamá cocina)<br />
+						</p>
+					</div>
+					<div style="margin: 2rem">
+						<p>
+							<b>OTROS</b><br />
+							Premezcla Bizcochuelo (Ravana-Exquisita)<br />
+							Gelantina (Exquisita)<br />
+							Flan (Exquisita)<br />
+						</p>
+						<div style="display: flex; justify-content: center; padding-top: 2rem">
+							<img style="height: 15rem" src="../img/productos/modals/fideos.png" alt="" />
+							<img style="height: 12rem; transform: rotate(80deg)" src="../img/productos/modals/tenedor.png" alt="" />
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<div class="modal" id="modal4" data-animation="slideInOutLeft">
+			<div class="modal-dialog">
+				<header class="modal-header">
+					<p style="font-size: 3rem; font-weight: bold; padding-left: 10%">Bebidas Alcohólicas, Gaseosas y Aguas</p>
+
+					<button class="close-modal" aria-label="close modal" data-close>✕</button>
+				</header>
+				<section class="modal-content">
+					<div style="margin: 2rem">
+						<p>
+							<b>BEBIDAS CON ALCOHOL</b> <br />
+							Cerveza en botella (Brahama)<br />
+							Latas (Andes-Schneider-Heineken-Brahama)<br />
+							Vino (Viñas de Balbo-Termidor)<br />
+
+							<b>ENERGIZANTES</b><br />
+							Monster<br />
+							Rockstar<br />
+							Speed<br />
+						</p>
+						<div style="display: flex; justify-content: center; padding-top: 2rem">
+							<img style="height: 16rem" src="../img/productos/modals/jugo.png" alt="" />
+						</div>
+					</div>
+
+					<div style="margin: 2rem">
+						<p>
+							<b>GASEOSAS</b><br />
+							Coca-Cola (Botella-lata)<br />
+							Sprite (Botella-lata)<br />
+							Pepsi (Botella-lata)<br />
+							7Up (Botella-lata)<br />
+							Manaos (Botella)<br />
+							Fanta (Botella-lata)<br />
+
+							<b>AGUAS</b><br />
+							Agua saborizada (Placer)<br />
+							Jugo (Baggio-Pindapoy-Tutti<br />
+							Agua sin gas 6 L. y 2 L.<br />
+							Agua con gas 6 L. y 2 L.<br />
+							Jugo en polvo (Rinde2-Noel-Clight-Tang)<br />
+						</p>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<div class="modal" id="modal5" data-animation="slideInOutLeft">
+			<div style="max-height: 90vh" class="modal-dialog">
+				<header class="modal-header">
+					<p style="font-size: 3rem; font-weight: bold; padding-left: 10%">Articulos de Limpieza y Perfumeria</p>
+
+					<button class="close-modal" aria-label="close modal" data-close>✕</button>
+				</header>
+				<section class="modal-content">
+					<div style="margin: 2rem">
+						<p>
+							<b>ARTICULOS DE LIMPIEZA</b><br />
+							Jabón Líquido para ropa<br />
+							Jabón en polvo para ropa<br />
+							Suavizante para ropa (suave)<br />
+							Lavandina (Ayudín)<br />
+							Desodorante para piso (Poet)<br />
+							Desodorante de ambiente (Poet)<br />
+							Detergente (Magistral)<br />
+							Rollo de cocina<br />
+							Fuyí<br />
+							Fósforos<br />
+							Limpiadores multiuso<br />
+							Trapos de piso<br />
+							Escobillones<br />
+							Secadores<br />
+							Pala<br />
+						</p>
+					</div>
+
+					<div style="margin: 2rem">
+						<p>
+							<b>ARTÍCULOS DE PERFUMERÍA</b><br />
+							Papel Higiénico<br />
+							Jabón de tocador<br />
+							Shampoo (varias marcas)<br />
+							Acondicionador (varias marcas)<br />
+							Toallas femeninas<br />
+							Prestobarba (Gillette)<br />
+							Talco para pies (Rexona)<br />
+							Desodorante (Axe-Dove)<br />
+							Gel para el pelo<br />
+							Alcohol etílico<br />
+							Alcohol en gel<br />
+							Pasta dental<br />
+						</p>
+						<div style="display: flex; justify-content: center; padding-top: 2rem">
+							<img style="height: 10rem" src="../img/productos/modals/JABON.png" alt="" />
+							<img style="height: 10rem" src="../img/productos/modals/ALCOHOL.png" alt="" />
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<div class="modal" id="modal6" data-animation="slideInOutLeft">
+			<div class="modal-dialog">
+				<header class="modal-header">
+					<p style="font-size: 3rem; font-weight: bold; padding-left: 30%">Lácteos y Fiambres</p>
+
+					<button class="close-modal" aria-label="close modal" data-close>✕</button>
+				</header>
+				<section class="modal-content">
+					<div style="margin: 2rem">
+						<p>
+							<b>LÁCTEOS</b><br />
+							Leche entera <br />
+							(La Suipachense-La Serenisima)<br />
+							Leche Descremada <br />
+							(La Suipachense-La Serenisima)<br />
+							Chocolatada (Cindor)<br />
+							Yogurth bebible (La Suipachense-La Serenisima)<br />
+							Crema de leche (La Suipachense)<br />
+							Manteca (SyP)<br />
+							Queso untable<br />
+						</p>
+					</div>
+
+					<div style="margin: 2rem">
+						<p>
+							<b>FIAMBRERÍA</b><br />
+							Jamón<br />
+							Salame<br />
+							Mortadela<br />
+							Queso fresco<br />
+							Queso Sardo<br />
+							Queso rallado (La serenisima)
+						</p>
+						<div style="display: flex; justify-content: center; padding-top: 2rem; align-items: center">
+							<img style="height: 8rem" src="../img/productos/modals/manteca.png" alt="" />
+							<img style="height: 14rem" src="../img/productos/modals/leche.png" alt="" />
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<div class="modal" id="modal7" data-animation="slideInOutLeft">
+			<div class="modal-dialog">
+				<header class="modal-header">
+					<p style="font-size: 3rem; font-weight: bold; padding-left: 10%">Enlatados y Conservas</p>
+
+					<button class="close-modal" aria-label="close modal" data-close>✕</button>
+				</header>
+				<section class="modal-content">
+					<div style="margin: 2rem">
+						<p>
+							<b>ENLATADOS</b><br />
+							Atún en aceite/al agua<br />
+							Arvejas (SyP-Inca)<br />
+							Choclo (SyP-Inca)<br />
+							Lentejas (SyP-Inca)<br />
+							Duraznos (Spat)<br />
+							Tomates (Santa Isabel)<br />
+							Paté (SyP-Swift)<br />
+							Picadillo (SyP-Swift)<br />
+						</p>
+					</div>
+
+					<div style="margin: 2rem">
+						<p>
+							<b>CONSERVAS</b><br />
+							Anchoas<br />
+							Aceituna<br />
+							Pickles<br />
+						</p>
+						<div style="display: flex; justify-content: center; padding-top: 2rem; align-items: center">
+							<img style="height: 8rem" src="../img/productos/modals/latas.png" alt="" />
+							<img style="height: 14rem; transform: scaleX(-1)" src="../img/productos/modals/lata.png" alt="" />
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<div class="modal" id="modal8" data-animation="slideInOutLeft">
+			<div class="modal-dialog">
+				<header class="modal-header">
+					<p style="font-size: 3rem; font-weight: bold; padding-left: 20%">Productos Frescos</p>
+
+					<button class="close-modal" aria-label="close modal" data-close>✕</button>
+				</header>
+				<section class="modal-content">
+					<div style="margin: 2rem">
+						<p>
+							<b>MASAS</b><br />
+							Pascualina (Delitap)<br />
+							Tapa de empanadas<br />
+							Prepizzas<br />
+							Levadura<br />
+						</p>
+						<div style="display: flex; justify-content: center; padding-top: 2rem; align-items: center">
+							<img style="height: 14rem" src="../img/productos/modals/hamburguesa.png" alt="" />
+						</div>
+					</div>
+
+					<div style="margin: 2rem">
+						<p>
+							<b>CONGELADOS/FRESCOS</b><br />
+							Supremas de pollo<br />
+							Milanesas caseras<br />
+							Hamburguesas<br />
+							Salchichas<br />
+							Dulce de membrillo/batata
+						</p>
+						<div style="display: flex; justify-content: center; padding-top: 2rem; align-items: center">
+							<img style="height: 10rem" src="../img/productos/modals/tarta.png" alt="" />
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<div class="modal" id="modal9" data-animation="slideInOutLeft">
+			<div class="modal-dialog">
+				<header class="modal-header">
+					<p style="font-size: 3rem; font-weight: bold; padding-left: 30%">Golosinas y Snaks</p>
+
+					<button class="close-modal" aria-label="close modal" data-close>✕</button>
+				</header>
+				<section class="modal-content">
+					<div style="margin: 2rem">
+						<p>
+							<b>GOLOSINAS</b><br />
+							Chocolates (Nestlé-KitKat)<br />
+							Alfajores (Guaymallen-Milka-Trishot)<br />
+							Chupetines (Ring pop- Pop´s evolucion)<br />
+							Caramelos<br />
+							Gomitas (Frutugelatina-Bulldog mix)<br />
+							Pipas<br />
+							Bananita Dolca<br />
+
+							<b>OTROS</b>
+							Cigarrillos (Lucky-Rothmans-Red Point)<br />
+							Encendedor<br />
+						</p>
+					</div>
+
+					<div style="margin: 2rem">
+						<p>
+							<b>SNACKS</b><br />
+							Papas fritas (Kranchitos-suelto)<br />
+							Papas fritas corte americano (Kranchitos-suelto)<br />
+							Papás con cheddar<br />
+							Palitos salados (Kranchitos-suelto)<br />
+							Maní chino<br />
+							Chizitos (Kranchitos-suelto)<br />
+							Bastoncitos(Kranchitos-suelto)
+						</p>
+						<div style="display: flex; justify-content: center; padding-top: 2rem; align-items: center">
+							<img style="height: 8rem" src="../img/productos/modals/snacks.png" alt="" />
+							<img style="height: 16rem" src="../img/productos/modals/caramelo.png" alt="" />
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<div class="modal" id="modal10" data-animation="slideInOutLeft">
+			<div class="modal-dialog">
+				<header class="modal-header">
+					<p style="font-size: 3rem; font-weight: bold; padding-left: 20%">Infusiones, Cafe y Yerba</p>
+
+					<button class="close-modal" aria-label="close modal" data-close>✕</button>
+				</header>
+				<section class="modal-content">
+					<div style="margin: 2rem">
+						<p>
+							<b>INFUSIONES</b><br />
+							Té Taragüi variedades<br />
+							Mate cocido Taragüi<br />
+
+							<b>CAFÉ</b><br />
+							Café instantáneo (La Virginia-<br />
+							Dolca-Cabrales-Arlistan)<br />
+							Café en saquitos<br />
+
+							<b>MERMELADAS</b><br />
+							Varios sabores (SyP)<br />
+
+							<b>OTROS</b><br />
+							Chocolatada (Nesquik)<br />
+							Dulce de leche (La serenisima)<br />
+						</p>
+					</div>
+
+					<div style="margin: 2rem">
+						<p>
+							<b>YERBAS</b><br />
+							Amanda<br />
+							Unión<br />
+							Mañanita<br />
+							Cachamate<br />
+							Taragüi<br />
+							Nobleza Gaucha<br />
+
+							<b>ENDULZANTES</b><br />
+							Azúcar común (Ledesma)<br />
+							Azúcar dietética (Hileret)<br />
+							Edulcorante (Sweet)<br />
+						</p>
+						<div style="display: flex; justify-content: center; padding-top: 2rem; align-items: center">
+							<img style="height: 8rem" src="../img/productos/modals/taza.png" alt="" />
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</body>
+
+	<script src="../js/modal.js"></script>
+</html>
